@@ -22,3 +22,5 @@ public class Prac_11 {
         System.out.println("You are " + name + " and " + age + " years old.");
     }
 }
+
+// test it under my name.
