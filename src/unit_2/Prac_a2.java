@@ -60,7 +60,7 @@ public class Prac_a2 {
         for(int i=0; i<x.length; i++){
             System.out.println("x[" + i + "] = "+ x[i]);
         }
-         **/
+
 
         String[] customers = new String[3];
 
@@ -73,9 +73,7 @@ public class Prac_a2 {
         for (int i=0; i< customers.length; i++) {
             System.out.println("Names of our customers : " + customers[i]);
         }
-
-
-
+         **/
 
 
 
