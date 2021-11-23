@@ -45,7 +45,7 @@ public class Prac_a2 {
             System.out.println("y[" + i + "] = "  + y[i]);
         }
 
-         **/
+
 
         BufferedReader enter = new BufferedReader(new InputStreamReader(System.in));
 
@@ -60,6 +60,23 @@ public class Prac_a2 {
         for(int i=0; i<x.length; i++){
             System.out.println("x[" + i + "] = "+ x[i]);
         }
+         **/
+
+        String[] customers = new String[3];
+
+        System.out.println("Enter the names of customers : ");
+        Scanner scan = new Scanner(System.in);
+        for(int i=0; i< customers.length; i++){
+            customers[i] = scan.nextLine();
+        }
+
+        for (int i=0; i< customers.length; i++) {
+            System.out.println("Names of our customers : " + customers[i]);
+        }
+
+
+
+
 
 
 
