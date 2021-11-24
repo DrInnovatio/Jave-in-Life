@@ -2,10 +2,12 @@ package unit_3;
 
 class People{
 
+
     public int age;
     public String name;
     public boolean isMarried;
     public int children;
+
 
     public void info(){
         System.out.println("AGE : " + age);
@@ -28,13 +30,5 @@ public class Prac_a11 {
 
         person.info();
 
-
-
         }
-
-
-
-
-
-
 }
