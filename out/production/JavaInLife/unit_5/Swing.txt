@@ -1,0 +1,44 @@
+package unit_5;
+
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+
+class Subclass extends JFrame{
+
+    private JButton button = new JButton("Check");
+    private GridBagLayout gbl = new GridBagLayout();
+
+    public Subclass(String title){
+        super(title);
+
+        this.init();
+        this.start();
+
+        super.setSize(300, 200);
+        Dimension screen = Toolkit.getDefaultToolkit().getScreenSize();
+        Dimension frame = this.getSize();
+        int xpos = (int)(screen.getWidth()/2 - ((Dimension) frame).getHeight()/2);
+        int ypos = (int)(screen.getWidth()/2 - ((Dimension) frame).getHeight()/2);
+        this.setLocation(xpos, ypos);
+        this.setResizable(false);
+        this.setVisible(true);
+    }
+
+    public void init(){
+        Container container = this.getContentPane();
+
+
+    }
+    public void start(){
+        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    }
+
+}
+
+public class SwingSwing {
+
+    public static void main(String[] args) {
+        Subclass sub = new Subclass("Title");
+    }
+}
